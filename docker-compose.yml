@@ -5,7 +5,7 @@ services:
     image: xiaoxiaofeihh/deeplx-pro-go:latest
     container_name: deeplx-pro
     ports:
-      - "9000:9000"
+      - "80:9000"
     environment:
-      - DEEPL_COOKIES=
+      - DEEPL_COOKIES="ac5f9dcf-4a96-41df-9c6d-fb514142f6e1"
     restart: always
